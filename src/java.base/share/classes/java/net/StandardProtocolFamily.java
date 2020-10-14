@@ -41,5 +41,11 @@ public enum StandardProtocolFamily implements ProtocolFamily {
     /**
      * Internet Protocol Version 6 (IPv6)
      */
-    INET6
+    INET6,
+
+    /**
+     * Unix domain (Local) interprocess communication.
+     * @since 16
+     */
+    UNIX
 }
